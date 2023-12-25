@@ -20,6 +20,7 @@ Designed and built an autonomous bot with 18cm square cells set over a 16 x 16 g
 
 ## Code Overview
 The project utilizes Arduino Nano and two tires for a compact and speedy design. Given is a snippet of the Arduino IDE code used:
+
 #include <Encoder.h>
 int dir;
 volatile int lastEncoded = 0; // Here updated value of encoder store.

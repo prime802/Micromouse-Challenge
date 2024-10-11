@@ -466,14 +466,5 @@ void walls() {
 
 //---------------------------------------------------------------------------//
 
-void turnright() {
-
-
-  LMS = baseSpeed ;
-
-  RMS = LMS * rightSensor / ( rightSensor + 11 ) ;
-
-
-}
 
 

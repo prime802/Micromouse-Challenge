@@ -19,9 +19,8 @@ float totalError ;
 int offset = 4;
 
 int wall_threshold = 5;
-//int left_threshold = 10 ;
-//int right_threshold = 10 ;
-int front_threshold = 6;
+
+int front_threshold = 5;
 
 boolean frontwall ;
 boolean leftwall ;

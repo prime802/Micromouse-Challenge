@@ -8,7 +8,7 @@ float Kp = 5.0, Ki = 0.0, Kd = 15.0;  // PID constants (adjust as necessary)
 float prevError = 0.0, integral = 0.0;
 
 // Grid and Positioning
-const int gridSize = 186  // 18x18 grid
+const int gridSize = 16  // 18x18 grid
 int maze[gridSize][gridSize];  // Grid representing the maze
 int robotX = 0, robotY = 0;   // Starting position of the robot
 int goalX = (gridSize / 2)-1, goalY = (gridSize / 2)-1;  // Goal is at the center of the maze
